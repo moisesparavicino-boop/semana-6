@@ -1,0 +1,24 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejercicio2 : MonoBehaviour
+{
+    List<string> items = new List<string>();
+
+
+    void Start()
+    {
+        items.Add("refresh");
+        items.Add("bkb");
+        items.Add("daga");
+
+        print(items[0]);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
