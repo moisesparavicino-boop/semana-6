@@ -1,0 +1,19 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ejericio4 : MonoBehaviour
+{
+    List<string> enemigos = new List<string>(); 
+    void Start()
+    {
+        enemigos.Add("antimage");
+        enemigos.Add("Axe");
+        enemigos.Add("invoker");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
