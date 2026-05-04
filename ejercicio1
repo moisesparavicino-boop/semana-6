@@ -1,0 +1,18 @@
+using UnityEngine;
+
+public class ejercicio1 : MonoBehaviour
+{
+    int[] puntaje = new int[5] { 3, 4, 5, 6, 8 };
+
+    void Start()
+    {
+        print("elementos: " + puntaje[0]);
+
+    }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+    }
