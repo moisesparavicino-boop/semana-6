@@ -1,0 +1,18 @@
+using UnityEngine;
+
+public class ejercicio6 : MonoBehaviour
+{
+    int[] elementos = new int[5] { 3, 4, 5, 6, 8 };
+
+    void Start()
+    {
+        print("elemento: " + elementos[0]);
+        print("elemento: " + elementos[5]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
