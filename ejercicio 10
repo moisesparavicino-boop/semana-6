@@ -1,1 +1,22 @@
+using System.Collections.Generic;
+using UnityEngine;
 
+public class ejercicio10 : MonoBehaviour
+{
+    List<string> Posiones = new List<string>();
+
+    {
+        Posiones.Add("Curacion");
+        Posiones.Add("Resistencia");
+        Posiones.Add("Velocidad");
+        Posiones.Add("Invisibilidad");
+
+      print("Cantidad de posiones:" +  Posiones.Count);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
