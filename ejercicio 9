@@ -1,1 +1,23 @@
+using System.Collections.Generic;
+using UnityEngine;
 
+public class ejercicio9 : MonoBehaviour
+{
+    List<string> nombres = new List<string>();
+
+    {
+        nombres.Add("Jorge");
+        nombres.Add("Agus");
+        nombres.Add("Popeye");
+
+        nombres.Remove("Agus");
+
+        print("Los numero de nombres:" +  nombres.Count);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
