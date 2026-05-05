@@ -9,6 +9,8 @@ public class ejericio4 : MonoBehaviour
         enemigos.Add("antimage");
         enemigos.Add("Axe");
         enemigos.Add("invoker");
+      print("El numero de enemigos es:" + enemigos.Count);
+
     }
 
     // Update is called once per frame
