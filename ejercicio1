@@ -6,6 +6,12 @@ public class ejercicio1 : MonoBehaviour
 
     void Start()
     {
+        puntajes[0] = 3;
+        puntajes[1] = 4;
+        puntajes[2] = 5;
+        puntajes[3] = 6;
+        puntajes[4] = 8;
+      
         print("elementos: " + puntaje[0]);
 
     }
