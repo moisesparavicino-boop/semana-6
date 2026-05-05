@@ -1,1 +1,22 @@
+using System.Collections.Generic;
+using UnityEngine;
 
+public class ejercicio8 : MonoBehaviour
+{
+    List<string> objetos = new List<string>();
+
+    {
+        objetos.Add("Guantes");
+        objetos.Add("Chaleco");
+        objetos.Add("Cuchillo");
+        objetos.Add("Llavero");
+
+        sprint("Su objeto es:" + objetos[0]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
