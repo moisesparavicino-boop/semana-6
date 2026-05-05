@@ -3,15 +3,21 @@ using UnityEngine;
 
 public class ejercicio5 : MonoBehaviour
 {
-    List<string> elementos = new List<string>();
+       int[] vidas = new int[3];
+      List<string> Inventario = new List<string>();
 
-    string[] posiones = new string[3] { "veneno", "magia", "furia" };
-    void Start()
-    {
-        elementos.Add("aire");
-        elementos.Add("tierra");
-    
-    }
+     {
+        vidas[0] = 80;
+        vidas[1] = 60;
+        vidas[2] = 40;
+
+        Inventario.Add("casco");
+        Inventario.Add("bate");
+
+       spring("Su vida es:" +  vidas[0]);
+       spring("Cantidad de inventario:" + Inventario.Count);
+       spring("Su item es:" + Inventario[0]);
+
 
     // Update is called once per frame
     void Update()
