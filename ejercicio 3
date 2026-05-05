@@ -6,9 +6,9 @@ public class ejericio3 : MonoBehaviour
    string[] posiones = new string[3] {"veneno", " magia", "furia"};
     void Start()
     {
-        print("vidas: " + posiones[0]);
-        print("vidas: " + posiones[1]);
-        print("vidas: " + posiones[2]);
+        print("vidas1: " + posiones[0]);
+        print("vidas2: " + posiones[1]);
+        print("vidas3: " + posiones[2]);
     }
 
     // Update is called once per frame
