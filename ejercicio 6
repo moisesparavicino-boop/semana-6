@@ -2,12 +2,17 @@ using UnityEngine;
 
 public class ejercicio6 : MonoBehaviour
 {
-    int[] elementos = new int[5] { 3, 4, 5, 6, 8 };
+    int[] exp = new int[5];
 
-    void Start()
     {
-        print("elemento: " + elementos[0]);
-        print("elemento: " + elementos[5]);
+        exp[0] = 30;
+        exp[1] = 50;
+        exp[2] = 70;
+        exp[3] = 90;
+        exp[4] = 100;
+
+       print("Su exp:" + exp[0]);
+        print("Su exp:" + exp[exp.Length - 1]);
     }
 
     // Update is called once per frame
