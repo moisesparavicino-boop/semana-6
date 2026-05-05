@@ -1,1 +1,28 @@
+using UnityEngine;
 
+public class ejercicio7 : MonoBehaviour
+{
+    int[] Atk = new int[3];
+
+    {
+        Atk[0] = 70;
+        Atk[1] = 50;
+        Atk[2] = 30;
+
+        print("Daño de ataque:" + Atk[0]);
+        print("Daño de ataque:" + Atk[1]);
+        print("Daño de ataque:" + Atk[2]);
+
+        Atk[1] = 100;
+
+        print("Daño de ataque:" + Atk[0]);
+        print("Daño de ataque:" + Atk[1]);
+        print("Daño de ataque:" + Atk[2]);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
