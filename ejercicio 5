@@ -14,9 +14,9 @@ public class ejercicio5 : MonoBehaviour
         Inventario.Add("casco");
         Inventario.Add("bate");
 
-       spring("Su vida es:" +  vidas[0]);
-       spring("Cantidad de inventario:" + Inventario.Count);
-       spring("Su item es:" + Inventario[0]);
+       print("Su vida es:" +  vidas[0]);
+       print("Cantidad de inventario:" + Inventario.Count);
+       print("Su item es:" + Inventario[0]);
 
 
     // Update is called once per frame
