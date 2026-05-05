@@ -11,7 +11,7 @@ public class ejercicio8 : MonoBehaviour
         objetos.Add("Cuchillo");
         objetos.Add("Llavero");
 
-        sprint("Su objeto es:" + objetos[0]);
+        print("Su objeto es:" + objetos[0]);
     }
 
     // Update is called once per frame
