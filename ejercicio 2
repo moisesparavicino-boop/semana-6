@@ -12,7 +12,7 @@ public class ejercicio2 : MonoBehaviour
         items.Add("bkb");
         items.Add("daga");
 
-        print(items[0]);
+        print("item del jugador es:" + item[2]);
 
     }
 
